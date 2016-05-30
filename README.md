@@ -14,7 +14,7 @@ Just started, code will be uploaded tonight!
 
 We'll need a copy of the `Node.exe` and `Node.lib`:
 
-https://nodejs.org/dist/
+https://nodejs.org/dist/v5.9.1/win-x64/
 
 NW.js:
 
