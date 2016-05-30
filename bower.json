@@ -1,0 +1,15 @@
+{
+  "name": "nwjs-edge-example",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.1.0",
+    "jquery": "^2.2.4"
+  }
+}

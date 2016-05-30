@@ -1,0 +1,38 @@
+{
+  "name": "nwjs-edge-example",
+  "description": "An example of using Edge from NW.js by spawning a separate Node process",
+  "homepage": "https://github.com/frankhale/nwjs-edge-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankhale/nwjs-edge-example/nwjs-edge-example.git"
+  },
+  "version": "0.0.1",
+  "authors": [
+    "Frank Hale <frankhale@gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "private": true,
+  "main": "index.html",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.29 Safari/537.36 node-webkit-%nwver",
+  "window": {
+    "title": "NW.js Edge Example",
+    "toolbar": false,
+    "width": 640,
+    "height": 400,
+    "min_width": 640,
+    "min_height": 400
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "grunt": "^1.0.0",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "load-grunt-tasks": "^3.4.1"
+  },
+  "dependencies": {
+    "edge": "^5.0.0",
+    "socket.io": "^1.4.6",
+    "strip": "^3.0.0"
+  }
+}
