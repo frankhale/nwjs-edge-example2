@@ -42,7 +42,11 @@ class UI extends React.Component {
          if(status === "success") {
            $log.html("");
            socket = io("http://localhost:62375");
-           $log.append("Socket.IO Client connection established<br/>");
+
+           setTimeout(function(){
+             $log.append("Socket.IO Client connection established<br/>");
+           }, 1000);
+
            this.setupSocketIOHandlers();
            clearInterval(checkSocketIOInterval);
          } else {
